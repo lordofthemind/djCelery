@@ -9,6 +9,8 @@ django-seed = "*"
 psycopg2-binary = "*"
 django-schema-graph = "*"
 environs = "==10.3.0"
+celery = "==5.3.6"
+redis = "==5.0.1"
 
 [dev-packages]
 

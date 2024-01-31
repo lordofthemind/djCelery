@@ -1,0 +1,25 @@
+.
+├── db.sqlite3
+├── djCelery
+│   ├── asgi.py
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── manage.py
+├── master
+│   ├── admin.py
+│   ├── apps.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   └── __init__.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── Pipfile
+├── Pipfile.lock
+├── requirements.txt
+└── tree.txt
+
+4 directories, 19 files
