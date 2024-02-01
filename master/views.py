@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 from django.http import HttpResponse
-from .tasks import sleepTime, sub
+from .tasks import sleepTime, sub, sendMailTask
 
 
 def masterindex(request):
@@ -10,4 +10,6 @@ def masterindex(request):
 
     sub.delay(54, 6)
 
-    return HttpResponse('I am about to wakeup!!')
+    sendMailTask.delay()
+
+    return HttpResponse('all tasks are completed')
