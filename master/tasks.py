@@ -5,3 +5,9 @@ from time import sleep
 def sleepTime(total_time):
     sleep(total_time)
     return None
+
+
+@shared_task
+def sub(x, y):
+    
+    return x - y

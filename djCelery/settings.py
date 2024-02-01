@@ -133,8 +133,5 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CELERY_BROKER_URL = 'redis-15165.c243.eu-west-1-3.ec2.cloud.redislabs.com:15165'
-
-CELERY_ACCEPT_CONTENT = ['json']
-
-CELERY_TASK_SERIALIZER = 'json'
+# Use RabbitMQ as the message broker
+CELERY_BROKER_URL = 'pyamqp://guest:guest@localhost:5672//'

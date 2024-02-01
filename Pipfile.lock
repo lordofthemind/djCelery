@@ -1,11 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ba0365880692ece31586d99d15c50e4b59054e8ad50dc4c791e3773896fc6636"
+            "sha256": "055efadad92381d1770529b7bc7df566ecc6767d86630d174a6bcf6ada56e649"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_full_version": "3.11.7",
+            "python_full_version": "3.11.2",
             "python_version": "3.11"
         },
         "sources": [
@@ -32,6 +32,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==3.7.2"
+        },
+        "async-timeout": {
+            "hashes": [
+                "sha256:4640d96be84d82d02ed59ea2b7105a0f7b33abe8703703cd0ab0bf87c427522f",
+                "sha256:7405140ff1230c310e51dc27b3145b9092d659ce68ff733fb0cefe3ee42be028"
+            ],
+            "markers": "python_full_version <= '3.11.2'",
+            "version": "==4.0.3"
         },
         "attrs": {
             "hashes": [
@@ -63,7 +71,6 @@
                 "sha256:9da4ea0118d232ce97dff5ed4974587fb1c0ff5c10042eb15278487cdd27d1af"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.8'",
             "version": "==5.3.6"
         },
         "click": {
@@ -103,7 +110,6 @@
                 "sha256:f47a37a90b9bbe2c8ec360235192c7fddfdc832206fcf618bb849b39256affc1"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.10'",
             "version": "==5.0.1"
         },
         "django-schema-graph": {
@@ -112,7 +118,6 @@
                 "sha256:d8ef410ccd0db0fce5942a35beaa6badbca76ddce3430d9c58ac1549ad4390ab"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.10'",
             "version": "==3.1.0"
         },
         "django-seed": {
@@ -128,7 +133,6 @@
                 "sha256:feeaf28f17fd0499f9cd7c0fcf408c6d82c308e69e335eb92d09322fc9ed8138"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.8'",
             "version": "==10.3.0"
         },
         "faker": {
@@ -247,7 +251,6 @@
                 "sha256:f9b5571d33660d5009a8b3c25dc1db560206e2d2f89d3df1cb32d72c0d117d52"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.7'",
             "version": "==2.9.9"
         },
         "python-dateutil": {
@@ -272,7 +275,6 @@
                 "sha256:ed4802971884ae19d640775ba3b03aa2e7bd5e8fb8dfaed2decce4d0fc48391f"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.7'",
             "version": "==5.0.1"
         },
         "six": {
